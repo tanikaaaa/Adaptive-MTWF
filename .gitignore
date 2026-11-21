@@ -44,6 +44,7 @@ wandb/
 tmp/
 temp/
 *.tmp
+.experiment.lock
 
 # Matplotlib/cache
 .matplotlib/

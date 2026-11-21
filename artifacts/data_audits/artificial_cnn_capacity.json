@@ -1,0 +1,120 @@
+{
+  "config": {
+    "name": "artificial_cnn_capacity",
+    "version": 1,
+    "input_source": "artificial",
+    "seed": 2023,
+    "device": "mps",
+    "architecture": "VariableLengthCNN default backbone",
+    "channels": 2,
+    "classes": 4,
+    "sequence_length": 30000,
+    "candidate_batch_sizes": [
+      4,
+      8,
+      16
+    ],
+    "optimizer": "adamw",
+    "optimizer_steps_per_candidate": 1,
+    "loss": "BCEWithLogitsLoss",
+    "dataset_access": false
+  },
+  "pytorch_version": "2.8.0",
+  "results": [
+    {
+      "batch_size": 4,
+      "input_shape": [
+        4,
+        2,
+        30000
+      ],
+      "output_shape": [
+        4,
+        4
+      ],
+      "status": "passed",
+      "finite_loss": true,
+      "finite_gradients": true,
+      "loss": 0.6956273317337036,
+      "runtime_seconds": 1.194085792,
+      "memory_snapshots": {
+        "before": {
+          "allocated_bytes": 0,
+          "driver_allocated_bytes": 458752
+        },
+        "after_backward": {
+          "allocated_bytes": 2808576,
+          "driver_allocated_bytes": 1128562688
+        },
+        "after_step": {
+          "allocated_bytes": 8022784,
+          "driver_allocated_bytes": 1136951296
+        }
+      }
+    },
+    {
+      "batch_size": 8,
+      "input_shape": [
+        8,
+        2,
+        30000
+      ],
+      "output_shape": [
+        8,
+        4
+      ],
+      "status": "passed",
+      "finite_loss": true,
+      "finite_gradients": true,
+      "loss": 0.6933945417404175,
+      "runtime_seconds": 0.4084151249999999,
+      "memory_snapshots": {
+        "before": {
+          "allocated_bytes": 0,
+          "driver_allocated_bytes": 29655040
+        },
+        "after_backward": {
+          "allocated_bytes": 3971840,
+          "driver_allocated_bytes": 1225670656
+        },
+        "after_step": {
+          "allocated_bytes": 10176000,
+          "driver_allocated_bytes": 1234059264
+        }
+      }
+    },
+    {
+      "batch_size": 16,
+      "input_shape": [
+        16,
+        2,
+        30000
+      ],
+      "output_shape": [
+        16,
+        4
+      ],
+      "status": "passed",
+      "finite_loss": true,
+      "finite_gradients": true,
+      "loss": 0.7319543361663818,
+      "runtime_seconds": 0.40204441699999993,
+      "memory_snapshots": {
+        "before": {
+          "allocated_bytes": 0,
+          "driver_allocated_bytes": 93208576
+        },
+        "after_backward": {
+          "allocated_bytes": 6478336,
+          "driver_allocated_bytes": 2362966016
+        },
+        "after_step": {
+          "allocated_bytes": 13563136,
+          "driver_allocated_bytes": 2371354624
+        }
+      }
+    }
+  ],
+  "memory_policy": "Snapshots are not peaks. Use one candidate below the largest passing size.",
+  "batch_size_recommendation": 8
+}

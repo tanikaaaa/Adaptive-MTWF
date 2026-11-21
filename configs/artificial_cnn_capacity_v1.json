@@ -1,0 +1,16 @@
+{
+  "name": "artificial_cnn_capacity",
+  "version": 1,
+  "input_source": "artificial",
+  "seed": 2023,
+  "device": "mps",
+  "architecture": "VariableLengthCNN default backbone",
+  "channels": 2,
+  "classes": 4,
+  "sequence_length": 30000,
+  "candidate_batch_sizes": [4, 8, 16],
+  "optimizer": "adamw",
+  "optimizer_steps_per_candidate": 1,
+  "loss": "BCEWithLogitsLoss",
+  "dataset_access": false
+}

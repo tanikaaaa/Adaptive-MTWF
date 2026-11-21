@@ -1,0 +1,1780 @@
+{
+  "policy": "All nonempty real rows; all synthetic rows. No window applied for fidelity metrics.",
+  "real": {
+    "2tabs": {
+      "trace_count": 1166,
+      "length_cells": {
+        "min": 78.0,
+        "p10": 1328.5,
+        "p25": 2560.5,
+        "median": 4789.5,
+        "p75": 7602.75,
+        "p90": 10766.0,
+        "p95": 13048.0,
+        "p97_5": 15659.875,
+        "p99": 18954.74999999999,
+        "max": 25325.0,
+        "mean": 5518.242710120068,
+        "iqr": 5042.25,
+        "defined": 1166,
+        "undefined": 0
+      },
+      "candidates": {
+        "5000": {
+          "fully_retained_pct": 53.00171526586621,
+          "truncated_pct": 46.99828473413379,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.3790742327438752,
+          "truncated_p25_fraction_retained": 0.4866775231498204
+        },
+        "8000": {
+          "fully_retained_pct": 78.04459691252144,
+          "truncated_pct": 21.955403087478558,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.4902216468368524,
+          "truncated_p25_fraction_retained": 0.6268995649481518
+        },
+        "10000": {
+          "fully_retained_pct": 87.56432246998284,
+          "truncated_pct": 12.435677530017152,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.5317745568787753,
+          "truncated_p25_fraction_retained": 0.6697475051905432
+        },
+        "12000": {
+          "fully_retained_pct": 92.71012006861064,
+          "truncated_pct": 7.289879931389365,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.615302448145457,
+          "truncated_p25_fraction_retained": 0.6889029220965612
+        },
+        "15000": {
+          "fully_retained_pct": 96.99828473413379,
+          "truncated_pct": 3.0017152658662094,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.7153938805801627,
+          "truncated_p25_fraction_retained": 0.7701323399556622
+        },
+        "20000": {
+          "fully_retained_pct": 99.57118353344768,
+          "truncated_pct": 0.42881646655231564,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.8146281513908119,
+          "truncated_p25_fraction_retained": 0.8519701810436635
+        }
+      }
+    },
+    "2tabs-extra": {
+      "trace_count": 10603,
+      "length_cells": {
+        "min": 97.0,
+        "p10": 1131.2,
+        "p25": 2440.0,
+        "median": 4545.0,
+        "p75": 7134.0,
+        "p90": 10225.600000000002,
+        "p95": 12528.699999999999,
+        "p97_5": 15012.04999999998,
+        "p99": 19910.779999999995,
+        "max": 50420.0,
+        "mean": 5309.903046307649,
+        "iqr": 4694.0,
+        "defined": 10603,
+        "undefined": 0
+      },
+      "candidates": {
+        "5000": {
+          "fully_retained_pct": 55.44657172498349,
+          "truncated_pct": 44.55342827501651,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.38572211084488706,
+          "truncated_p25_fraction_retained": 0.5073309358839008
+        },
+        "8000": {
+          "fully_retained_pct": 80.70357446005846,
+          "truncated_pct": 19.296425539941524,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.4932082123142997,
+          "truncated_p25_fraction_retained": 0.6324111739486911
+        },
+        "10000": {
+          "fully_retained_pct": 89.38979534094125,
+          "truncated_pct": 10.610204659058757,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.5113433141887838,
+          "truncated_p25_fraction_retained": 0.6802721088435374
+        },
+        "12000": {
+          "fully_retained_pct": 94.19032349335093,
+          "truncated_pct": 5.809676506649061,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.5425695081934416,
+          "truncated_p25_fraction_retained": 0.6726175107594774
+        },
+        "15000": {
+          "fully_retained_pct": 97.49127605394699,
+          "truncated_pct": 2.5087239460530038,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.5900169722421418,
+          "truncated_p25_fraction_retained": 0.6910320997935836
+        },
+        "20000": {
+          "fully_retained_pct": 99.0002829387909,
+          "truncated_pct": 0.9997170612090918,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.6088308690510034,
+          "truncated_p25_fraction_retained": 0.7865655203253223
+        }
+      }
+    },
+    "3tabs": {
+      "trace_count": 1311,
+      "length_cells": {
+        "min": 173.0,
+        "p10": 2887.0,
+        "p25": 4834.0,
+        "median": 7666.0,
+        "p75": 11196.0,
+        "p90": 15397.0,
+        "p95": 17942.0,
+        "p97_5": 21290.5,
+        "p99": 26403.500000000044,
+        "max": 44466.0,
+        "mean": 8622.547673531655,
+        "iqr": 6362.0,
+        "defined": 1311,
+        "undefined": 0
+      },
+      "candidates": {
+        "5000": {
+          "fully_retained_pct": 26.239511823035848,
+          "truncated_pct": 73.76048817696415,
+          "median_fraction_retained": 0.6522306287503261,
+          "truncated_p10_fraction_retained": 0.30168100429472017,
+          "truncated_p25_fraction_retained": 0.3969199240757125
+        },
+        "8000": {
+          "fully_retained_pct": 52.936689549961855,
+          "truncated_pct": 47.06331045003814,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.43702005132500854,
+          "truncated_p25_fraction_retained": 0.5424832169254764
+        },
+        "10000": {
+          "fully_retained_pct": 68.3447749809306,
+          "truncated_pct": 31.655225019069412,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.4940295378343513,
+          "truncated_p25_fraction_retained": 0.6106685046351066
+        },
+        "12000": {
+          "fully_retained_pct": 79.32875667429443,
+          "truncated_pct": 20.671243325705568,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.5375380756136893,
+          "truncated_p25_fraction_retained": 0.6701851809744213
+        },
+        "15000": {
+          "fully_retained_pct": 88.78718535469108,
+          "truncated_pct": 11.212814645308924,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.5820375609873121,
+          "truncated_p25_fraction_retained": 0.7181789919979185
+        },
+        "20000": {
+          "fully_retained_pct": 96.64378337147215,
+          "truncated_pct": 3.3562166285278416,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.5551893612176122,
+          "truncated_p25_fraction_retained": 0.6947710566151075
+        }
+      }
+    },
+    "4tabs": {
+      "trace_count": 1477,
+      "length_cells": {
+        "min": 616.0,
+        "p10": 5252.2,
+        "p25": 8110.0,
+        "median": 11688.0,
+        "p75": 16597.0,
+        "p90": 23641.000000000007,
+        "p95": 29846.0,
+        "p97_5": 37700.39999999999,
+        "p99": 43977.200000000004,
+        "max": 70059.0,
+        "mean": 13558.482058226135,
+        "iqr": 8487.0,
+        "defined": 1477,
+        "undefined": 0
+      },
+      "candidates": {
+        "5000": {
+          "fully_retained_pct": 8.801624915368992,
+          "truncated_pct": 91.19837508463101,
+          "median_fraction_retained": 0.4277891854893908,
+          "truncated_p10_fraction_retained": 0.20663889473807256,
+          "truncated_p25_fraction_retained": 0.29179204929560476
+        },
+        "8000": {
+          "fully_retained_pct": 24.373730534867978,
+          "truncated_pct": 75.62626946513203,
+          "median_fraction_retained": 0.6844626967830253,
+          "truncated_p10_fraction_retained": 0.30777046201652714,
+          "truncated_p25_fraction_retained": 0.4364191806229884
+        },
+        "10000": {
+          "fully_retained_pct": 38.59174001354096,
+          "truncated_pct": 61.408259986459036,
+          "median_fraction_retained": 0.8555783709787816,
+          "truncated_p10_fraction_retained": 0.36127596957595803,
+          "truncated_p25_fraction_retained": 0.5026961576354878
+        },
+        "12000": {
+          "fully_retained_pct": 51.52335815842925,
+          "truncated_pct": 48.47664184157075,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.39927496146709995,
+          "truncated_p25_fraction_retained": 0.5438785356793197
+        },
+        "15000": {
+          "fully_retained_pct": 67.56939742721734,
+          "truncated_pct": 32.43060257278267,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.44045814845064735,
+          "truncated_p25_fraction_retained": 0.5938126975986653
+        },
+        "20000": {
+          "fully_retained_pct": 84.83412322274881,
+          "truncated_pct": 15.165876777251185,
+          "median_fraction_retained": 1.0,
+          "truncated_p10_fraction_retained": 0.4826327039419221,
+          "truncated_p25_fraction_retained": 0.607886437455428
+        }
+      }
+    }
+  },
+  "synthetic": {
+    "2": {
+      "ratio_0.10": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 90.0,
+          "p10": 1641.0000000000002,
+          "p25": 3071.5,
+          "median": 5089.0,
+          "p75": 6780.25,
+          "p90": 7996.500000000001,
+          "p95": 8960.599999999999,
+          "p97_5": 10000.0,
+          "p99": 10000.0,
+          "max": 10000.0,
+          "mean": 5017.426,
+          "iqr": 3708.75,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 46.6,
+            "truncated_pct": 53.400000000000006,
+            "median_fraction_retained": 0.9825126646442364,
+            "truncated_p10_fraction_retained": 0.5643413648444218,
+            "truncated_p25_fraction_retained": 0.6516780959410813
+          },
+          "8000": {
+            "fully_retained_pct": 90.0,
+            "truncated_pct": 10.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8,
+            "truncated_p25_fraction_retained": 0.8
+          },
+          "10000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "12000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.20": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 90.0,
+          "p10": 1641.0000000000002,
+          "p25": 3071.5,
+          "median": 5089.0,
+          "p75": 6780.25,
+          "p90": 7996.500000000001,
+          "p95": 8960.599999999999,
+          "p97_5": 10000.0,
+          "p99": 10000.0,
+          "max": 10000.0,
+          "mean": 5017.426,
+          "iqr": 3708.75,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 46.6,
+            "truncated_pct": 53.400000000000006,
+            "median_fraction_retained": 0.9825126646442364,
+            "truncated_p10_fraction_retained": 0.5643413648444218,
+            "truncated_p25_fraction_retained": 0.6516780959410813
+          },
+          "8000": {
+            "fully_retained_pct": 90.0,
+            "truncated_pct": 10.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8,
+            "truncated_p25_fraction_retained": 0.8
+          },
+          "10000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "12000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.30": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 90.0,
+          "p10": 1641.0000000000002,
+          "p25": 3071.5,
+          "median": 5089.0,
+          "p75": 6780.25,
+          "p90": 7996.500000000001,
+          "p95": 8960.599999999999,
+          "p97_5": 10000.0,
+          "p99": 10000.0,
+          "max": 10000.0,
+          "mean": 5017.426,
+          "iqr": 3708.75,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 46.6,
+            "truncated_pct": 53.400000000000006,
+            "median_fraction_retained": 0.9825126646442364,
+            "truncated_p10_fraction_retained": 0.5643413648444218,
+            "truncated_p25_fraction_retained": 0.6516780959410813
+          },
+          "8000": {
+            "fully_retained_pct": 90.0,
+            "truncated_pct": 10.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8,
+            "truncated_p25_fraction_retained": 0.8
+          },
+          "10000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "12000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.40": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 90.0,
+          "p10": 1641.0000000000002,
+          "p25": 3071.5,
+          "median": 5089.0,
+          "p75": 6780.25,
+          "p90": 7996.500000000001,
+          "p95": 8960.599999999999,
+          "p97_5": 10000.0,
+          "p99": 10000.0,
+          "max": 10000.0,
+          "mean": 5017.426,
+          "iqr": 3708.75,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 46.6,
+            "truncated_pct": 53.400000000000006,
+            "median_fraction_retained": 0.9825126646442364,
+            "truncated_p10_fraction_retained": 0.5643413648444218,
+            "truncated_p25_fraction_retained": 0.6516780959410813
+          },
+          "8000": {
+            "fully_retained_pct": 90.0,
+            "truncated_pct": 10.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8,
+            "truncated_p25_fraction_retained": 0.8
+          },
+          "10000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "12000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.50": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 90.0,
+          "p10": 1641.0000000000002,
+          "p25": 3071.5,
+          "median": 5089.0,
+          "p75": 6780.25,
+          "p90": 7996.500000000001,
+          "p95": 8960.599999999999,
+          "p97_5": 10000.0,
+          "p99": 10000.0,
+          "max": 10000.0,
+          "mean": 5017.426,
+          "iqr": 3708.75,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 46.6,
+            "truncated_pct": 53.400000000000006,
+            "median_fraction_retained": 0.9825126646442364,
+            "truncated_p10_fraction_retained": 0.5643413648444218,
+            "truncated_p25_fraction_retained": 0.6516780959410813
+          },
+          "8000": {
+            "fully_retained_pct": 90.0,
+            "truncated_pct": 10.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8,
+            "truncated_p25_fraction_retained": 0.8
+          },
+          "10000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "12000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "delay": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 90.0,
+          "p10": 1641.0000000000002,
+          "p25": 3071.5,
+          "median": 5089.0,
+          "p75": 6780.25,
+          "p90": 7996.500000000001,
+          "p95": 8960.599999999999,
+          "p97_5": 10000.0,
+          "p99": 10000.0,
+          "max": 10000.0,
+          "mean": 5017.426,
+          "iqr": 3708.75,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 46.6,
+            "truncated_pct": 53.400000000000006,
+            "median_fraction_retained": 0.9825126646442364,
+            "truncated_p10_fraction_retained": 0.5643413648444218,
+            "truncated_p25_fraction_retained": 0.6516780959410813
+          },
+          "8000": {
+            "fully_retained_pct": 90.0,
+            "truncated_pct": 10.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8,
+            "truncated_p25_fraction_retained": 0.8
+          },
+          "10000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "12000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      }
+    },
+    "3": {
+      "ratio_0.10": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 185.0,
+          "p10": 3813.6,
+          "p25": 5635.0,
+          "median": 7987.5,
+          "p75": 10728.25,
+          "p90": 12316.1,
+          "p95": 13185.349999999997,
+          "p97_5": 13952.199999999997,
+          "p99": 14640.179999999998,
+          "max": 15000.0,
+          "mean": 8073.734,
+          "iqr": 5093.25,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 17.8,
+            "truncated_pct": 82.19999999999999,
+            "median_fraction_retained": 0.6259780932197094,
+            "truncated_p10_fraction_retained": 0.3996802557953637,
+            "truncated_p25_fraction_retained": 0.44601058658573933
+          },
+          "8000": {
+            "fully_retained_pct": 50.2,
+            "truncated_pct": 49.8,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.6061382741902205,
+            "truncated_p25_fraction_retained": 0.663680106188817
+          },
+          "10000": {
+            "fully_retained_pct": 68.4,
+            "truncated_pct": 31.6,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7295170528262328,
+            "truncated_p25_fraction_retained": 0.7975913514388623
+          },
+          "12000": {
+            "fully_retained_pct": 87.0,
+            "truncated_pct": 13.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8223331837612644,
+            "truncated_p25_fraction_retained": 0.8755928493250639
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.20": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 185.0,
+          "p10": 3813.6,
+          "p25": 5635.0,
+          "median": 7987.5,
+          "p75": 10728.25,
+          "p90": 12316.1,
+          "p95": 13185.349999999997,
+          "p97_5": 13952.199999999997,
+          "p99": 14640.179999999998,
+          "max": 15000.0,
+          "mean": 8073.734,
+          "iqr": 5093.25,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 17.8,
+            "truncated_pct": 82.19999999999999,
+            "median_fraction_retained": 0.6259780932197094,
+            "truncated_p10_fraction_retained": 0.3996802557953637,
+            "truncated_p25_fraction_retained": 0.44601058658573933
+          },
+          "8000": {
+            "fully_retained_pct": 50.2,
+            "truncated_pct": 49.8,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.6061382741902205,
+            "truncated_p25_fraction_retained": 0.663680106188817
+          },
+          "10000": {
+            "fully_retained_pct": 68.4,
+            "truncated_pct": 31.6,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7295170528262328,
+            "truncated_p25_fraction_retained": 0.7975913514388623
+          },
+          "12000": {
+            "fully_retained_pct": 87.0,
+            "truncated_pct": 13.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8223331837612644,
+            "truncated_p25_fraction_retained": 0.8755928493250639
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.30": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 185.0,
+          "p10": 3813.6,
+          "p25": 5635.0,
+          "median": 7987.5,
+          "p75": 10728.25,
+          "p90": 12316.1,
+          "p95": 13185.349999999997,
+          "p97_5": 13952.199999999997,
+          "p99": 14640.179999999998,
+          "max": 15000.0,
+          "mean": 8073.734,
+          "iqr": 5093.25,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 17.8,
+            "truncated_pct": 82.19999999999999,
+            "median_fraction_retained": 0.6259780932197094,
+            "truncated_p10_fraction_retained": 0.3996802557953637,
+            "truncated_p25_fraction_retained": 0.44601058658573933
+          },
+          "8000": {
+            "fully_retained_pct": 50.2,
+            "truncated_pct": 49.8,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.6061382741902205,
+            "truncated_p25_fraction_retained": 0.663680106188817
+          },
+          "10000": {
+            "fully_retained_pct": 68.4,
+            "truncated_pct": 31.6,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7295170528262328,
+            "truncated_p25_fraction_retained": 0.7975913514388623
+          },
+          "12000": {
+            "fully_retained_pct": 87.0,
+            "truncated_pct": 13.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8223331837612644,
+            "truncated_p25_fraction_retained": 0.8755928493250639
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.40": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 185.0,
+          "p10": 3813.6,
+          "p25": 5635.0,
+          "median": 7987.5,
+          "p75": 10728.25,
+          "p90": 12316.1,
+          "p95": 13185.349999999997,
+          "p97_5": 13952.199999999997,
+          "p99": 14640.179999999998,
+          "max": 15000.0,
+          "mean": 8073.734,
+          "iqr": 5093.25,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 17.8,
+            "truncated_pct": 82.19999999999999,
+            "median_fraction_retained": 0.6259780932197094,
+            "truncated_p10_fraction_retained": 0.3996802557953637,
+            "truncated_p25_fraction_retained": 0.44601058658573933
+          },
+          "8000": {
+            "fully_retained_pct": 50.2,
+            "truncated_pct": 49.8,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.6061382741902205,
+            "truncated_p25_fraction_retained": 0.663680106188817
+          },
+          "10000": {
+            "fully_retained_pct": 68.4,
+            "truncated_pct": 31.6,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7295170528262328,
+            "truncated_p25_fraction_retained": 0.7975913514388623
+          },
+          "12000": {
+            "fully_retained_pct": 87.0,
+            "truncated_pct": 13.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8223331837612644,
+            "truncated_p25_fraction_retained": 0.8755928493250639
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.50": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 185.0,
+          "p10": 3813.6,
+          "p25": 5635.0,
+          "median": 7987.5,
+          "p75": 10728.25,
+          "p90": 12316.1,
+          "p95": 13185.349999999997,
+          "p97_5": 13952.199999999997,
+          "p99": 14640.179999999998,
+          "max": 15000.0,
+          "mean": 8073.734,
+          "iqr": 5093.25,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 17.8,
+            "truncated_pct": 82.19999999999999,
+            "median_fraction_retained": 0.6259780932197094,
+            "truncated_p10_fraction_retained": 0.3996802557953637,
+            "truncated_p25_fraction_retained": 0.44601058658573933
+          },
+          "8000": {
+            "fully_retained_pct": 50.2,
+            "truncated_pct": 49.8,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.6061382741902205,
+            "truncated_p25_fraction_retained": 0.663680106188817
+          },
+          "10000": {
+            "fully_retained_pct": 68.4,
+            "truncated_pct": 31.6,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7295170528262328,
+            "truncated_p25_fraction_retained": 0.7975913514388623
+          },
+          "12000": {
+            "fully_retained_pct": 87.0,
+            "truncated_pct": 13.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8223331837612644,
+            "truncated_p25_fraction_retained": 0.8755928493250639
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "delay": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 185.0,
+          "p10": 3813.6,
+          "p25": 5635.0,
+          "median": 7987.5,
+          "p75": 10728.25,
+          "p90": 12316.1,
+          "p95": 13185.349999999997,
+          "p97_5": 13952.199999999997,
+          "p99": 14640.179999999998,
+          "max": 15000.0,
+          "mean": 8073.734,
+          "iqr": 5093.25,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 17.8,
+            "truncated_pct": 82.19999999999999,
+            "median_fraction_retained": 0.6259780932197094,
+            "truncated_p10_fraction_retained": 0.3996802557953637,
+            "truncated_p25_fraction_retained": 0.44601058658573933
+          },
+          "8000": {
+            "fully_retained_pct": 50.2,
+            "truncated_pct": 49.8,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.6061382741902205,
+            "truncated_p25_fraction_retained": 0.663680106188817
+          },
+          "10000": {
+            "fully_retained_pct": 68.4,
+            "truncated_pct": 31.6,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7295170528262328,
+            "truncated_p25_fraction_retained": 0.7975913514388623
+          },
+          "12000": {
+            "fully_retained_pct": 87.0,
+            "truncated_pct": 13.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8223331837612644,
+            "truncated_p25_fraction_retained": 0.8755928493250639
+          },
+          "15000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      }
+    },
+    "4": {
+      "ratio_0.10": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2062.0,
+          "p10": 6265.3,
+          "p25": 8679.5,
+          "median": 11187.5,
+          "p75": 13180.0,
+          "p90": 15110.900000000001,
+          "p95": 16421.6,
+          "p97_5": 17607.425,
+          "p99": 18838.41,
+          "max": 20000.0,
+          "mean": 10898.954,
+          "iqr": 4500.5,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 6.2,
+            "truncated_pct": 93.8,
+            "median_fraction_retained": 0.4469275251698796,
+            "truncated_p10_fraction_retained": 0.3261115292088036,
+            "truncated_p25_fraction_retained": 0.37307864497836146
+          },
+          "8000": {
+            "fully_retained_pct": 20.0,
+            "truncated_pct": 80.0,
+            "median_fraction_retained": 0.7150840402718073,
+            "truncated_p10_fraction_retained": 0.5140364068194944,
+            "truncated_p25_fraction_retained": 0.578297305464404
+          },
+          "10000": {
+            "fully_retained_pct": 37.0,
+            "truncated_pct": 63.0,
+            "median_fraction_retained": 0.8938550503397592,
+            "truncated_p10_fraction_retained": 0.6324552833037663,
+            "truncated_p25_fraction_retained": 0.7030622938846358
+          },
+          "12000": {
+            "fully_retained_pct": 62.6,
+            "truncated_pct": 37.4,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7128007128007128,
+            "truncated_p25_fraction_retained": 0.7819644829601895
+          },
+          "15000": {
+            "fully_retained_pct": 88.8,
+            "truncated_pct": 11.200000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8010101753314478,
+            "truncated_p25_fraction_retained": 0.8578352373564077
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.20": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2062.0,
+          "p10": 6265.3,
+          "p25": 8679.5,
+          "median": 11187.5,
+          "p75": 13180.0,
+          "p90": 15110.900000000001,
+          "p95": 16421.6,
+          "p97_5": 17607.425,
+          "p99": 18838.41,
+          "max": 20000.0,
+          "mean": 10898.954,
+          "iqr": 4500.5,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 6.2,
+            "truncated_pct": 93.8,
+            "median_fraction_retained": 0.4469275251698796,
+            "truncated_p10_fraction_retained": 0.3261115292088036,
+            "truncated_p25_fraction_retained": 0.37307864497836146
+          },
+          "8000": {
+            "fully_retained_pct": 20.0,
+            "truncated_pct": 80.0,
+            "median_fraction_retained": 0.7150840402718073,
+            "truncated_p10_fraction_retained": 0.5140364068194944,
+            "truncated_p25_fraction_retained": 0.578297305464404
+          },
+          "10000": {
+            "fully_retained_pct": 37.0,
+            "truncated_pct": 63.0,
+            "median_fraction_retained": 0.8938550503397592,
+            "truncated_p10_fraction_retained": 0.6324552833037663,
+            "truncated_p25_fraction_retained": 0.7030622938846358
+          },
+          "12000": {
+            "fully_retained_pct": 62.6,
+            "truncated_pct": 37.4,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7128007128007128,
+            "truncated_p25_fraction_retained": 0.7819644829601895
+          },
+          "15000": {
+            "fully_retained_pct": 88.8,
+            "truncated_pct": 11.200000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8010101753314478,
+            "truncated_p25_fraction_retained": 0.8578352373564077
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.30": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2062.0,
+          "p10": 6265.3,
+          "p25": 8679.5,
+          "median": 11187.5,
+          "p75": 13180.0,
+          "p90": 15110.900000000001,
+          "p95": 16421.6,
+          "p97_5": 17607.425,
+          "p99": 18838.41,
+          "max": 20000.0,
+          "mean": 10898.954,
+          "iqr": 4500.5,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 6.2,
+            "truncated_pct": 93.8,
+            "median_fraction_retained": 0.4469275251698796,
+            "truncated_p10_fraction_retained": 0.3261115292088036,
+            "truncated_p25_fraction_retained": 0.37307864497836146
+          },
+          "8000": {
+            "fully_retained_pct": 20.0,
+            "truncated_pct": 80.0,
+            "median_fraction_retained": 0.7150840402718073,
+            "truncated_p10_fraction_retained": 0.5140364068194944,
+            "truncated_p25_fraction_retained": 0.578297305464404
+          },
+          "10000": {
+            "fully_retained_pct": 37.0,
+            "truncated_pct": 63.0,
+            "median_fraction_retained": 0.8938550503397592,
+            "truncated_p10_fraction_retained": 0.6324552833037663,
+            "truncated_p25_fraction_retained": 0.7030622938846358
+          },
+          "12000": {
+            "fully_retained_pct": 62.6,
+            "truncated_pct": 37.4,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7128007128007128,
+            "truncated_p25_fraction_retained": 0.7819644829601895
+          },
+          "15000": {
+            "fully_retained_pct": 88.8,
+            "truncated_pct": 11.200000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8010101753314478,
+            "truncated_p25_fraction_retained": 0.8578352373564077
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.40": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2062.0,
+          "p10": 6265.3,
+          "p25": 8679.5,
+          "median": 11187.5,
+          "p75": 13180.0,
+          "p90": 15110.900000000001,
+          "p95": 16421.6,
+          "p97_5": 17607.425,
+          "p99": 18838.41,
+          "max": 20000.0,
+          "mean": 10898.954,
+          "iqr": 4500.5,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 6.2,
+            "truncated_pct": 93.8,
+            "median_fraction_retained": 0.4469275251698796,
+            "truncated_p10_fraction_retained": 0.3261115292088036,
+            "truncated_p25_fraction_retained": 0.37307864497836146
+          },
+          "8000": {
+            "fully_retained_pct": 20.0,
+            "truncated_pct": 80.0,
+            "median_fraction_retained": 0.7150840402718073,
+            "truncated_p10_fraction_retained": 0.5140364068194944,
+            "truncated_p25_fraction_retained": 0.578297305464404
+          },
+          "10000": {
+            "fully_retained_pct": 37.0,
+            "truncated_pct": 63.0,
+            "median_fraction_retained": 0.8938550503397592,
+            "truncated_p10_fraction_retained": 0.6324552833037663,
+            "truncated_p25_fraction_retained": 0.7030622938846358
+          },
+          "12000": {
+            "fully_retained_pct": 62.6,
+            "truncated_pct": 37.4,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7128007128007128,
+            "truncated_p25_fraction_retained": 0.7819644829601895
+          },
+          "15000": {
+            "fully_retained_pct": 88.8,
+            "truncated_pct": 11.200000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8010101753314478,
+            "truncated_p25_fraction_retained": 0.8578352373564077
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "ratio_0.50": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2062.0,
+          "p10": 6265.3,
+          "p25": 8679.5,
+          "median": 11187.5,
+          "p75": 13180.0,
+          "p90": 15110.900000000001,
+          "p95": 16421.6,
+          "p97_5": 17607.425,
+          "p99": 18838.41,
+          "max": 20000.0,
+          "mean": 10898.954,
+          "iqr": 4500.5,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 6.2,
+            "truncated_pct": 93.8,
+            "median_fraction_retained": 0.4469275251698796,
+            "truncated_p10_fraction_retained": 0.3261115292088036,
+            "truncated_p25_fraction_retained": 0.37307864497836146
+          },
+          "8000": {
+            "fully_retained_pct": 20.0,
+            "truncated_pct": 80.0,
+            "median_fraction_retained": 0.7150840402718073,
+            "truncated_p10_fraction_retained": 0.5140364068194944,
+            "truncated_p25_fraction_retained": 0.578297305464404
+          },
+          "10000": {
+            "fully_retained_pct": 37.0,
+            "truncated_pct": 63.0,
+            "median_fraction_retained": 0.8938550503397592,
+            "truncated_p10_fraction_retained": 0.6324552833037663,
+            "truncated_p25_fraction_retained": 0.7030622938846358
+          },
+          "12000": {
+            "fully_retained_pct": 62.6,
+            "truncated_pct": 37.4,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7128007128007128,
+            "truncated_p25_fraction_retained": 0.7819644829601895
+          },
+          "15000": {
+            "fully_retained_pct": 88.8,
+            "truncated_pct": 11.200000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8010101753314478,
+            "truncated_p25_fraction_retained": 0.8578352373564077
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      },
+      "delay": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2062.0,
+          "p10": 6265.3,
+          "p25": 8679.5,
+          "median": 11187.5,
+          "p75": 13180.0,
+          "p90": 15110.900000000001,
+          "p95": 16421.6,
+          "p97_5": 17607.425,
+          "p99": 18838.41,
+          "max": 20000.0,
+          "mean": 10898.954,
+          "iqr": 4500.5,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 6.2,
+            "truncated_pct": 93.8,
+            "median_fraction_retained": 0.4469275251698796,
+            "truncated_p10_fraction_retained": 0.3261115292088036,
+            "truncated_p25_fraction_retained": 0.37307864497836146
+          },
+          "8000": {
+            "fully_retained_pct": 20.0,
+            "truncated_pct": 80.0,
+            "median_fraction_retained": 0.7150840402718073,
+            "truncated_p10_fraction_retained": 0.5140364068194944,
+            "truncated_p25_fraction_retained": 0.578297305464404
+          },
+          "10000": {
+            "fully_retained_pct": 37.0,
+            "truncated_pct": 63.0,
+            "median_fraction_retained": 0.8938550503397592,
+            "truncated_p10_fraction_retained": 0.6324552833037663,
+            "truncated_p25_fraction_retained": 0.7030622938846358
+          },
+          "12000": {
+            "fully_retained_pct": 62.6,
+            "truncated_pct": 37.4,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7128007128007128,
+            "truncated_p25_fraction_retained": 0.7819644829601895
+          },
+          "15000": {
+            "fully_retained_pct": 88.8,
+            "truncated_pct": 11.200000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.8010101753314478,
+            "truncated_p25_fraction_retained": 0.8578352373564077
+          },
+          "20000": {
+            "fully_retained_pct": 100.0,
+            "truncated_pct": 0.0,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": null,
+            "truncated_p25_fraction_retained": null
+          }
+        }
+      }
+    },
+    "5": {
+      "ratio_0.10": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2090.0,
+          "p10": 8735.900000000001,
+          "p25": 10703.5,
+          "median": 13839.0,
+          "p75": 16554.5,
+          "p90": 19144.800000000003,
+          "p95": 20577.649999999994,
+          "p97_5": 21529.049999999996,
+          "p99": 23410.07,
+          "max": 25000.0,
+          "mean": 13757.978,
+          "iqr": 5851.0,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 2.0,
+            "truncated_pct": 98.0,
+            "median_fraction_retained": 0.3612978287940256,
+            "truncated_p10_fraction_retained": 0.25970722383288647,
+            "truncated_p25_fraction_retained": 0.30066145520144316
+          },
+          "8000": {
+            "fully_retained_pct": 8.6,
+            "truncated_pct": 91.4,
+            "median_fraction_retained": 0.578076526070441,
+            "truncated_p10_fraction_retained": 0.41294595807925627,
+            "truncated_p25_fraction_retained": 0.4756525358225816
+          },
+          "10000": {
+            "fully_retained_pct": 19.400000000000002,
+            "truncated_pct": 80.60000000000001,
+            "median_fraction_retained": 0.7225956575880512,
+            "truncated_p10_fraction_retained": 0.5122006195984039,
+            "truncated_p25_fraction_retained": 0.5792568256559527
+          },
+          "12000": {
+            "fully_retained_pct": 33.0,
+            "truncated_pct": 67.0,
+            "median_fraction_retained": 0.8671147891056614,
+            "truncated_p10_fraction_retained": 0.5990550572607146,
+            "truncated_p25_fraction_retained": 0.6755815668563125
+          },
+          "15000": {
+            "fully_retained_pct": 60.8,
+            "truncated_pct": 39.2,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7176357027243507,
+            "truncated_p25_fraction_retained": 0.7784870599440294
+          },
+          "20000": {
+            "fully_retained_pct": 93.2,
+            "truncated_pct": 6.800000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.831172775986557,
+            "truncated_p25_fraction_retained": 0.8929577514651292
+          }
+        }
+      },
+      "ratio_0.20": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2090.0,
+          "p10": 8735.900000000001,
+          "p25": 10703.5,
+          "median": 13839.0,
+          "p75": 16554.5,
+          "p90": 19144.800000000003,
+          "p95": 20577.649999999994,
+          "p97_5": 21529.049999999996,
+          "p99": 23410.07,
+          "max": 25000.0,
+          "mean": 13757.978,
+          "iqr": 5851.0,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 2.0,
+            "truncated_pct": 98.0,
+            "median_fraction_retained": 0.3612978287940256,
+            "truncated_p10_fraction_retained": 0.25970722383288647,
+            "truncated_p25_fraction_retained": 0.30066145520144316
+          },
+          "8000": {
+            "fully_retained_pct": 8.6,
+            "truncated_pct": 91.4,
+            "median_fraction_retained": 0.578076526070441,
+            "truncated_p10_fraction_retained": 0.41294595807925627,
+            "truncated_p25_fraction_retained": 0.4756525358225816
+          },
+          "10000": {
+            "fully_retained_pct": 19.400000000000002,
+            "truncated_pct": 80.60000000000001,
+            "median_fraction_retained": 0.7225956575880512,
+            "truncated_p10_fraction_retained": 0.5122006195984039,
+            "truncated_p25_fraction_retained": 0.5792568256559527
+          },
+          "12000": {
+            "fully_retained_pct": 33.0,
+            "truncated_pct": 67.0,
+            "median_fraction_retained": 0.8671147891056614,
+            "truncated_p10_fraction_retained": 0.5990550572607146,
+            "truncated_p25_fraction_retained": 0.6755815668563125
+          },
+          "15000": {
+            "fully_retained_pct": 60.8,
+            "truncated_pct": 39.2,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7176357027243507,
+            "truncated_p25_fraction_retained": 0.7784870599440294
+          },
+          "20000": {
+            "fully_retained_pct": 93.2,
+            "truncated_pct": 6.800000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.831172775986557,
+            "truncated_p25_fraction_retained": 0.8929577514651292
+          }
+        }
+      },
+      "ratio_0.30": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2090.0,
+          "p10": 8735.900000000001,
+          "p25": 10703.5,
+          "median": 13839.0,
+          "p75": 16554.5,
+          "p90": 19144.800000000003,
+          "p95": 20577.649999999994,
+          "p97_5": 21529.049999999996,
+          "p99": 23410.07,
+          "max": 25000.0,
+          "mean": 13757.978,
+          "iqr": 5851.0,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 2.0,
+            "truncated_pct": 98.0,
+            "median_fraction_retained": 0.3612978287940256,
+            "truncated_p10_fraction_retained": 0.25970722383288647,
+            "truncated_p25_fraction_retained": 0.30066145520144316
+          },
+          "8000": {
+            "fully_retained_pct": 8.6,
+            "truncated_pct": 91.4,
+            "median_fraction_retained": 0.578076526070441,
+            "truncated_p10_fraction_retained": 0.41294595807925627,
+            "truncated_p25_fraction_retained": 0.4756525358225816
+          },
+          "10000": {
+            "fully_retained_pct": 19.400000000000002,
+            "truncated_pct": 80.60000000000001,
+            "median_fraction_retained": 0.7225956575880512,
+            "truncated_p10_fraction_retained": 0.5122006195984039,
+            "truncated_p25_fraction_retained": 0.5792568256559527
+          },
+          "12000": {
+            "fully_retained_pct": 33.0,
+            "truncated_pct": 67.0,
+            "median_fraction_retained": 0.8671147891056614,
+            "truncated_p10_fraction_retained": 0.5990550572607146,
+            "truncated_p25_fraction_retained": 0.6755815668563125
+          },
+          "15000": {
+            "fully_retained_pct": 60.8,
+            "truncated_pct": 39.2,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7176357027243507,
+            "truncated_p25_fraction_retained": 0.7784870599440294
+          },
+          "20000": {
+            "fully_retained_pct": 93.2,
+            "truncated_pct": 6.800000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.831172775986557,
+            "truncated_p25_fraction_retained": 0.8929577514651292
+          }
+        }
+      },
+      "ratio_0.40": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2090.0,
+          "p10": 8735.900000000001,
+          "p25": 10703.5,
+          "median": 13839.0,
+          "p75": 16554.5,
+          "p90": 19144.800000000003,
+          "p95": 20577.649999999994,
+          "p97_5": 21529.049999999996,
+          "p99": 23410.07,
+          "max": 25000.0,
+          "mean": 13757.978,
+          "iqr": 5851.0,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 2.0,
+            "truncated_pct": 98.0,
+            "median_fraction_retained": 0.3612978287940256,
+            "truncated_p10_fraction_retained": 0.25970722383288647,
+            "truncated_p25_fraction_retained": 0.30066145520144316
+          },
+          "8000": {
+            "fully_retained_pct": 8.6,
+            "truncated_pct": 91.4,
+            "median_fraction_retained": 0.578076526070441,
+            "truncated_p10_fraction_retained": 0.41294595807925627,
+            "truncated_p25_fraction_retained": 0.4756525358225816
+          },
+          "10000": {
+            "fully_retained_pct": 19.400000000000002,
+            "truncated_pct": 80.60000000000001,
+            "median_fraction_retained": 0.7225956575880512,
+            "truncated_p10_fraction_retained": 0.5122006195984039,
+            "truncated_p25_fraction_retained": 0.5792568256559527
+          },
+          "12000": {
+            "fully_retained_pct": 33.0,
+            "truncated_pct": 67.0,
+            "median_fraction_retained": 0.8671147891056614,
+            "truncated_p10_fraction_retained": 0.5990550572607146,
+            "truncated_p25_fraction_retained": 0.6755815668563125
+          },
+          "15000": {
+            "fully_retained_pct": 60.8,
+            "truncated_pct": 39.2,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7176357027243507,
+            "truncated_p25_fraction_retained": 0.7784870599440294
+          },
+          "20000": {
+            "fully_retained_pct": 93.2,
+            "truncated_pct": 6.800000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.831172775986557,
+            "truncated_p25_fraction_retained": 0.8929577514651292
+          }
+        }
+      },
+      "ratio_0.50": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2090.0,
+          "p10": 8735.900000000001,
+          "p25": 10703.5,
+          "median": 13839.0,
+          "p75": 16554.5,
+          "p90": 19144.800000000003,
+          "p95": 20577.649999999994,
+          "p97_5": 21529.049999999996,
+          "p99": 23410.07,
+          "max": 25000.0,
+          "mean": 13757.978,
+          "iqr": 5851.0,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 2.0,
+            "truncated_pct": 98.0,
+            "median_fraction_retained": 0.3612978287940256,
+            "truncated_p10_fraction_retained": 0.25970722383288647,
+            "truncated_p25_fraction_retained": 0.30066145520144316
+          },
+          "8000": {
+            "fully_retained_pct": 8.6,
+            "truncated_pct": 91.4,
+            "median_fraction_retained": 0.578076526070441,
+            "truncated_p10_fraction_retained": 0.41294595807925627,
+            "truncated_p25_fraction_retained": 0.4756525358225816
+          },
+          "10000": {
+            "fully_retained_pct": 19.400000000000002,
+            "truncated_pct": 80.60000000000001,
+            "median_fraction_retained": 0.7225956575880512,
+            "truncated_p10_fraction_retained": 0.5122006195984039,
+            "truncated_p25_fraction_retained": 0.5792568256559527
+          },
+          "12000": {
+            "fully_retained_pct": 33.0,
+            "truncated_pct": 67.0,
+            "median_fraction_retained": 0.8671147891056614,
+            "truncated_p10_fraction_retained": 0.5990550572607146,
+            "truncated_p25_fraction_retained": 0.6755815668563125
+          },
+          "15000": {
+            "fully_retained_pct": 60.8,
+            "truncated_pct": 39.2,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7176357027243507,
+            "truncated_p25_fraction_retained": 0.7784870599440294
+          },
+          "20000": {
+            "fully_retained_pct": 93.2,
+            "truncated_pct": 6.800000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.831172775986557,
+            "truncated_p25_fraction_retained": 0.8929577514651292
+          }
+        }
+      },
+      "delay": {
+        "trace_count": 500,
+        "length_cells": {
+          "min": 2090.0,
+          "p10": 8735.900000000001,
+          "p25": 10703.5,
+          "median": 13839.0,
+          "p75": 16554.5,
+          "p90": 19144.800000000003,
+          "p95": 20577.649999999994,
+          "p97_5": 21529.049999999996,
+          "p99": 23410.07,
+          "max": 25000.0,
+          "mean": 13757.978,
+          "iqr": 5851.0,
+          "defined": 500,
+          "undefined": 0
+        },
+        "candidates": {
+          "5000": {
+            "fully_retained_pct": 2.0,
+            "truncated_pct": 98.0,
+            "median_fraction_retained": 0.3612978287940256,
+            "truncated_p10_fraction_retained": 0.25970722383288647,
+            "truncated_p25_fraction_retained": 0.30066145520144316
+          },
+          "8000": {
+            "fully_retained_pct": 8.6,
+            "truncated_pct": 91.4,
+            "median_fraction_retained": 0.578076526070441,
+            "truncated_p10_fraction_retained": 0.41294595807925627,
+            "truncated_p25_fraction_retained": 0.4756525358225816
+          },
+          "10000": {
+            "fully_retained_pct": 19.400000000000002,
+            "truncated_pct": 80.60000000000001,
+            "median_fraction_retained": 0.7225956575880512,
+            "truncated_p10_fraction_retained": 0.5122006195984039,
+            "truncated_p25_fraction_retained": 0.5792568256559527
+          },
+          "12000": {
+            "fully_retained_pct": 33.0,
+            "truncated_pct": 67.0,
+            "median_fraction_retained": 0.8671147891056614,
+            "truncated_p10_fraction_retained": 0.5990550572607146,
+            "truncated_p25_fraction_retained": 0.6755815668563125
+          },
+          "15000": {
+            "fully_retained_pct": 60.8,
+            "truncated_pct": 39.2,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.7176357027243507,
+            "truncated_p25_fraction_retained": 0.7784870599440294
+          },
+          "20000": {
+            "fully_retained_pct": 93.2,
+            "truncated_pct": 6.800000000000001,
+            "median_fraction_retained": 1.0,
+            "truncated_p10_fraction_retained": 0.831172775986557,
+            "truncated_p25_fraction_retained": 0.8929577514651292
+          }
+        }
+      }
+    }
+  },
+  "real_five_tab_available": false
+}

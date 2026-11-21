@@ -1,0 +1,496 @@
+{
+  "max_source_cells": 5000,
+  "overlap_ratio_tolerance": 1e-12,
+  "eligibility_policy": "Validate all supplied source cells before capping; retain excluded rows in the corpus.",
+  "eligibility_by_split": {
+    "train": {
+      "source_file": "/Users/tanikagoyal/BTP/TMWF/dataset/tbb single tab/train",
+      "source_sha256": "1ed1c907a44f1cd2522620cd6d0024adb20a9c8464db67896f46f9eb33b2701e",
+      "scanned_count": 8000,
+      "eligible_count": 7945,
+      "excluded_count": 55,
+      "excluded_source_indices_by_reason": {
+        "decreasing_timestamps": [
+          385,
+          430,
+          469,
+          501,
+          569,
+          664,
+          745,
+          765,
+          904,
+          1421,
+          1446,
+          1525,
+          1533,
+          1947,
+          2410,
+          2419,
+          2441,
+          2459,
+          2466,
+          2586,
+          3555,
+          3572,
+          4023,
+          4068,
+          4172,
+          4173,
+          4264,
+          4378,
+          4497,
+          4524,
+          4650,
+          4724,
+          4880,
+          4947,
+          5194,
+          5228,
+          5284,
+          5695,
+          5780,
+          5927,
+          6023,
+          6071,
+          6255,
+          6258,
+          6501,
+          6639,
+          6749,
+          6890,
+          6935,
+          6954,
+          7113,
+          7204,
+          7388,
+          7912,
+          7960
+        ]
+      }
+    },
+    "test": {
+      "source_file": "/Users/tanikagoyal/BTP/TMWF/dataset/tbb single tab/test",
+      "source_sha256": "533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4",
+      "scanned_count": 2000,
+      "eligible_count": 1988,
+      "excluded_count": 12,
+      "excluded_source_indices_by_reason": {
+        "decreasing_timestamps": [
+          248,
+          386,
+          395,
+          611,
+          700,
+          708,
+          801,
+          1302,
+          1363,
+          1418,
+          1507,
+          1763
+        ]
+      }
+    }
+  },
+  "rng_seed": 2023,
+  "rng_algorithm": "NumPy Generator with PCG64",
+  "numpy_version": "2.0.2",
+  "tie_policy": "seeded_random",
+  "source_pool": [
+    {
+      "source_order": 0,
+      "trace_id": "tmwf-tbb-single-tab:test:533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4:80",
+      "source_dataset": "tmwf-tbb-single-tab",
+      "split": "test",
+      "labels": [
+        4
+      ],
+      "original_valid_length": 4658,
+      "retained_length": 4658,
+      "duration": 13.017217636108398,
+      "source_file": "/Users/tanikagoyal/BTP/TMWF/dataset/tbb single tab/test",
+      "source_sha256": "533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4",
+      "source_index": 80
+    },
+    {
+      "source_order": 1,
+      "trace_id": "tmwf-tbb-single-tab:test:533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4:40",
+      "source_dataset": "tmwf-tbb-single-tab",
+      "split": "test",
+      "labels": [
+        2
+      ],
+      "original_valid_length": 1490,
+      "retained_length": 1490,
+      "duration": 19.092172622680664,
+      "source_file": "/Users/tanikagoyal/BTP/TMWF/dataset/tbb single tab/test",
+      "source_sha256": "533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4",
+      "source_index": 40
+    },
+    {
+      "source_order": 2,
+      "trace_id": "tmwf-tbb-single-tab:test:533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4:20",
+      "source_dataset": "tmwf-tbb-single-tab",
+      "split": "test",
+      "labels": [
+        1
+      ],
+      "original_valid_length": 5765,
+      "retained_length": 5000,
+      "duration": 19.61376953125,
+      "source_file": "/Users/tanikagoyal/BTP/TMWF/dataset/tbb single tab/test",
+      "source_sha256": "533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4",
+      "source_index": 20
+    },
+    {
+      "source_order": 3,
+      "trace_id": "tmwf-tbb-single-tab:test:533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4:0",
+      "source_dataset": "tmwf-tbb-single-tab",
+      "split": "test",
+      "labels": [
+        0
+      ],
+      "original_valid_length": 1444,
+      "retained_length": 1444,
+      "duration": 20.476043701171875,
+      "source_file": "/Users/tanikagoyal/BTP/TMWF/dataset/tbb single tab/test",
+      "source_sha256": "533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4",
+      "source_index": 0
+    },
+    {
+      "source_order": 4,
+      "trace_id": "tmwf-tbb-single-tab:test:533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4:60",
+      "source_dataset": "tmwf-tbb-single-tab",
+      "split": "test",
+      "labels": [
+        3
+      ],
+      "original_valid_length": 2325,
+      "retained_length": 2325,
+      "duration": 27.244525909423828,
+      "source_file": "/Users/tanikagoyal/BTP/TMWF/dataset/tbb single tab/test",
+      "source_sha256": "533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4",
+      "source_index": 60
+    }
+  ],
+  "examples": [
+    {
+      "trace_id": "synthesized-ded66cc03d90a246dbb1f4286a4179ca9951317f6294db67a4d7641f28667b1c",
+      "synthesis_mode": "M_ratio",
+      "tab_count": 2,
+      "source_pool_positions": [
+        0,
+        1
+      ],
+      "labels": [
+        4,
+        2
+      ],
+      "start_offsets": [
+        0.0,
+        11.71549587249756
+      ],
+      "target_overlap_ratio": 0.1,
+      "actual_adjacent_overlaps": [
+        {
+          "predecessor_source_order": 0,
+          "successor_source_order": 1,
+          "overlap_duration": 1.3017217636108391,
+          "overlap_ratio": 0.09999999999999995
+        }
+      ],
+      "merged_length": 6148
+    },
+    {
+      "trace_id": "synthesized-53edf266e27081a9ee072477348f45ff1815a0e64e2c2f650f6e06077b34611f",
+      "synthesis_mode": "M_ratio",
+      "tab_count": 2,
+      "source_pool_positions": [
+        0,
+        1
+      ],
+      "labels": [
+        4,
+        2
+      ],
+      "start_offsets": [
+        0.0,
+        10.41377410888672
+      ],
+      "target_overlap_ratio": 0.2,
+      "actual_adjacent_overlaps": [
+        {
+          "predecessor_source_order": 0,
+          "successor_source_order": 1,
+          "overlap_duration": 2.6034435272216783,
+          "overlap_ratio": 0.1999999999999999
+        }
+      ],
+      "merged_length": 6148
+    },
+    {
+      "trace_id": "synthesized-dff2e065021f35549a5e3abb02133e03d1c0fd5bb1fd6667406b63f3fe12de5b",
+      "synthesis_mode": "M_ratio",
+      "tab_count": 2,
+      "source_pool_positions": [
+        0,
+        1
+      ],
+      "labels": [
+        4,
+        2
+      ],
+      "start_offsets": [
+        0.0,
+        9.112052345275877
+      ],
+      "target_overlap_ratio": 0.3,
+      "actual_adjacent_overlaps": [
+        {
+          "predecessor_source_order": 0,
+          "successor_source_order": 1,
+          "overlap_duration": 3.905165290832521,
+          "overlap_ratio": 0.3000000000000001
+        }
+      ],
+      "merged_length": 6148
+    },
+    {
+      "trace_id": "synthesized-34d0981ec518b7f83d006c6747e73f6ff942ca17bf25447462192d643933fdac",
+      "synthesis_mode": "M_ratio",
+      "tab_count": 2,
+      "source_pool_positions": [
+        0,
+        1
+      ],
+      "labels": [
+        4,
+        2
+      ],
+      "start_offsets": [
+        0.0,
+        7.810330581665038
+      ],
+      "target_overlap_ratio": 0.4,
+      "actual_adjacent_overlaps": [
+        {
+          "predecessor_source_order": 0,
+          "successor_source_order": 1,
+          "overlap_duration": 5.20688705444336,
+          "overlap_ratio": 0.4000000000000001
+        }
+      ],
+      "merged_length": 6148
+    },
+    {
+      "trace_id": "synthesized-1bbe8309485965eff5e1533d6f0fc87591e4b43ef0489896d1af7c789a1f72cb",
+      "synthesis_mode": "M_ratio",
+      "tab_count": 2,
+      "source_pool_positions": [
+        0,
+        1
+      ],
+      "labels": [
+        4,
+        2
+      ],
+      "start_offsets": [
+        0.0,
+        6.508608818054199
+      ],
+      "target_overlap_ratio": 0.5,
+      "actual_adjacent_overlaps": [
+        {
+          "predecessor_source_order": 0,
+          "successor_source_order": 1,
+          "overlap_duration": 6.508608818054199,
+          "overlap_ratio": 0.5
+        }
+      ],
+      "merged_length": 6148
+    },
+    {
+      "trace_id": "synthesized-ee9e7cca572aadf1d5d26e61b94df7572c6a52702901dfa8d864d616b564ec32",
+      "synthesis_mode": "M_ratio",
+      "tab_count": 3,
+      "source_pool_positions": [
+        0,
+        1,
+        2
+      ],
+      "labels": [
+        4,
+        2,
+        1
+      ],
+      "start_offsets": [
+        0.0,
+        9.112052345275877,
+        22.47657318115234
+      ],
+      "target_overlap_ratio": 0.3,
+      "actual_adjacent_overlaps": [
+        {
+          "predecessor_source_order": 0,
+          "successor_source_order": 1,
+          "overlap_duration": 3.905165290832521,
+          "overlap_ratio": 0.3000000000000001
+        },
+        {
+          "predecessor_source_order": 1,
+          "successor_source_order": 2,
+          "overlap_duration": 5.727651786804202,
+          "overlap_ratio": 0.30000000000000016
+        }
+      ],
+      "merged_length": 11148
+    },
+    {
+      "trace_id": "synthesized-ae46f7b6231cef720e7efcac69a59825f5719ad895b15986200f3ad6140b36e7",
+      "synthesis_mode": "M_ratio",
+      "tab_count": 4,
+      "source_pool_positions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "labels": [
+        4,
+        2,
+        1,
+        0
+      ],
+      "start_offsets": [
+        0.0,
+        9.112052345275877,
+        22.47657318115234,
+        36.20621185302734
+      ],
+      "target_overlap_ratio": 0.3,
+      "actual_adjacent_overlaps": [
+        {
+          "predecessor_source_order": 0,
+          "successor_source_order": 1,
+          "overlap_duration": 3.905165290832521,
+          "overlap_ratio": 0.3000000000000001
+        },
+        {
+          "predecessor_source_order": 1,
+          "successor_source_order": 2,
+          "overlap_duration": 5.727651786804202,
+          "overlap_ratio": 0.30000000000000016
+        },
+        {
+          "predecessor_source_order": 2,
+          "successor_source_order": 3,
+          "overlap_duration": 5.884130859374999,
+          "overlap_ratio": 0.29999999999999993
+        }
+      ],
+      "merged_length": 12592
+    },
+    {
+      "trace_id": "synthesized-27054e50a9bc54fae2684c853f83e2d743c3ec548aadf36b546f8e4395b60bed",
+      "synthesis_mode": "M_ratio",
+      "tab_count": 5,
+      "source_pool_positions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "labels": [
+        4,
+        2,
+        1,
+        0,
+        3
+      ],
+      "start_offsets": [
+        0.0,
+        9.112052345275877,
+        22.47657318115234,
+        36.20621185302734,
+        50.539442443847655
+      ],
+      "target_overlap_ratio": 0.3,
+      "actual_adjacent_overlaps": [
+        {
+          "predecessor_source_order": 0,
+          "successor_source_order": 1,
+          "overlap_duration": 3.905165290832521,
+          "overlap_ratio": 0.3000000000000001
+        },
+        {
+          "predecessor_source_order": 1,
+          "successor_source_order": 2,
+          "overlap_duration": 5.727651786804202,
+          "overlap_ratio": 0.30000000000000016
+        },
+        {
+          "predecessor_source_order": 2,
+          "successor_source_order": 3,
+          "overlap_duration": 5.884130859374999,
+          "overlap_ratio": 0.29999999999999993
+        },
+        {
+          "predecessor_source_order": 3,
+          "successor_source_order": 4,
+          "overlap_duration": 6.142813110351561,
+          "overlap_ratio": 0.29999999999999993
+        }
+      ],
+      "merged_length": 14917
+    },
+    {
+      "trace_id": "synthesized-bdbcbcf76699144c15fce5f2317869031cde3ff44c94ae2c1e6946a06b79e80d",
+      "synthesis_mode": "M_delay",
+      "tab_count": 3,
+      "source_pool_positions": [
+        0,
+        1,
+        2
+      ],
+      "labels": [
+        4,
+        2,
+        1
+      ],
+      "start_offsets": [
+        0.0,
+        2.1088752287124928,
+        6.045538210212074
+      ],
+      "target_overlap_ratio": null,
+      "actual_adjacent_overlaps": [
+        {
+          "predecessor_source_order": 0,
+          "successor_source_order": 1,
+          "overlap_duration": 10.908342407395907,
+          "overlap_ratio": 0.8379933955423244
+        },
+        {
+          "predecessor_source_order": 1,
+          "successor_source_order": 2,
+          "overlap_duration": 15.155509641181082,
+          "overlap_ratio": 0.7938074906769386
+        }
+      ],
+      "merged_length": 11148,
+      "delay_schedule": {
+        "kind": "uniform_delays",
+        "range": [
+          2.0,
+          4.0
+        ],
+        "delays": [
+          2.1088752287124928,
+          3.9366629814995813
+        ]
+      }
+    }
+  ]
+}

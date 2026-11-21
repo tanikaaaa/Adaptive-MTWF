@@ -1,0 +1,158 @@
+{
+  "scope": "Original released train and test files.",
+  "content_identity": "SHA-256 of channel lengths and complete ordered float32 timestamps and int8 directions, excluding labels.",
+  "splits": {
+    "train": {
+      "source_file": "/Users/tanikagoyal/BTP/TMWF/dataset/tbb single tab/train",
+      "source_sha256": "1ed1c907a44f1cd2522620cd6d0024adb20a9c8464db67896f46f9eb33b2701e",
+      "class_counts": {
+        "-1": 4000,
+        "0": 80,
+        "1": 80,
+        "2": 80,
+        "3": 80,
+        "4": 80,
+        "5": 80,
+        "6": 80,
+        "7": 80,
+        "8": 80,
+        "9": 80,
+        "10": 80,
+        "11": 80,
+        "12": 80,
+        "13": 80,
+        "14": 80,
+        "15": 80,
+        "16": 80,
+        "17": 80,
+        "18": 80,
+        "19": 80,
+        "20": 80,
+        "21": 80,
+        "22": 80,
+        "23": 80,
+        "24": 80,
+        "25": 80,
+        "26": 80,
+        "27": 80,
+        "28": 80,
+        "29": 80,
+        "30": 80,
+        "31": 80,
+        "32": 80,
+        "33": 80,
+        "34": 80,
+        "35": 80,
+        "36": 80,
+        "37": 80,
+        "38": 80,
+        "39": 80,
+        "40": 80,
+        "41": 80,
+        "42": 80,
+        "43": 80,
+        "44": 80,
+        "45": 80,
+        "46": 80,
+        "47": 80,
+        "48": 80,
+        "49": 80
+      }
+    },
+    "test": {
+      "source_file": "/Users/tanikagoyal/BTP/TMWF/dataset/tbb single tab/test",
+      "source_sha256": "533e5af3ba0104d896261acf84f1a528cf29921cfd14272055a7fb20754e0fe4",
+      "class_counts": {
+        "-1": 1000,
+        "0": 20,
+        "1": 20,
+        "2": 20,
+        "3": 20,
+        "4": 20,
+        "5": 20,
+        "6": 20,
+        "7": 20,
+        "8": 20,
+        "9": 20,
+        "10": 20,
+        "11": 20,
+        "12": 20,
+        "13": 20,
+        "14": 20,
+        "15": 20,
+        "16": 20,
+        "17": 20,
+        "18": 20,
+        "19": 20,
+        "20": 20,
+        "21": 20,
+        "22": 20,
+        "23": 20,
+        "24": 20,
+        "25": 20,
+        "26": 20,
+        "27": 20,
+        "28": 20,
+        "29": 20,
+        "30": 20,
+        "31": 20,
+        "32": 20,
+        "33": 20,
+        "34": 20,
+        "35": 20,
+        "36": 20,
+        "37": 20,
+        "38": 20,
+        "39": 20,
+        "40": 20,
+        "41": 20,
+        "42": 20,
+        "43": 20,
+        "44": 20,
+        "45": 20,
+        "46": 20,
+        "47": 20,
+        "48": 20,
+        "49": 20
+      }
+    }
+  },
+  "checks": {
+    "source_ids": {
+      "row_counts": {
+        "test": 2000,
+        "train": 8000
+      },
+      "unique_id_counts": {
+        "test": 2000,
+        "train": 8000
+      },
+      "overlaps": [
+        {
+          "left": "test",
+          "right": "train",
+          "shared_id_count": 0
+        }
+      ],
+      "is_disjoint": true
+    },
+    "exact_record_contents": {
+      "row_counts": {
+        "test": 2000,
+        "train": 8000
+      },
+      "unique_id_counts": {
+        "test": 2000,
+        "train": 8000
+      },
+      "overlaps": [
+        {
+          "left": "test",
+          "right": "train",
+          "shared_id_count": 0
+        }
+      ],
+      "is_disjoint": true
+    }
+  }
+}

@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Raw / downloaded datasets
+datasets/
+data/raw/
+*.npz
+*.npy
+*.pkl
+*.pickle
+*.tar
+*.tar.gz
+*.zip
+
+# Model checkpoints / large training artifacts
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+
+# Runtime logs
+logs/
+runs/
+wandb/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Matplotlib/cache
+.matplotlib/
